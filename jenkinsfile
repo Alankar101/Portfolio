@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/Alankar101/Portfolio.git', branch: 'master'
+                git url: 'https://github.com/Alankar101/Portfolio.git', branch: 'main'
             }
         }
 
